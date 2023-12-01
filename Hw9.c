@@ -4,7 +4,7 @@ int convCase(int ch){
     const int diff = 'a'-'A';
     if (ch>='A'&& ch<='Z')
         return ch +diff;
-    else if(ch >='a' && ch<='Z')
+    else if(ch >='a' && ch<='z')
         return ch-diff;
     else 
         return ch;
